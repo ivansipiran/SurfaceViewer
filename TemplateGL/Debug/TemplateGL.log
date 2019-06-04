@@ -1,0 +1,46 @@
+﻿Compilación iniciada a las 04-06-2019 12:14:01.
+     1>Proyecto "C:\Users\Admin\Documents\Sipiran\Proyectos\Proyecto SENCICO\Software\TextureObjects\TemplateGL\TemplateGL.vcxproj" en el nodo 2 (Build destinos).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (TemplateGL.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\source\soil\src /I"C:\Users\Admin\Desktop\UPC\Computación Gráfica\Software\template\TemplateGL2\source\assimp-4.1.0\include" /I..\source /I"..\glm-0.9.7.3\glm" /I..\freeglut\include /I"..\glew-2.1.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\source\ArcBall.cpp ..\source\objloader2.cpp ..\source\shader_utils.cpp
+         shader_utils.cpp
+         objloader2.cpp
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\learnopengl\shader_m.h(64): warning C4101: 'success' : variable local sin referencia
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\learnopengl\shader_m.h(65): warning C4101: 'infoLog' : variable local sin referencia
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\learnopengl\model.h(67): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\learnopengl\model.h(89): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\objloader2.cpp(136): warning C4305: '*=' : truncamiento de 'double' a 'float'
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\objloader2.cpp(140): warning C4305: '*=' : truncamiento de 'double' a 'float'
+         ArcBall.cpp
+         Generando código...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\source\soil\src /I"C:\Users\Admin\Desktop\UPC\Computación Gráfica\Software\template\TemplateGL2\source\assimp-4.1.0\include" /I..\source /I"..\glm-0.9.7.3\glm" /I..\freeglut\include /I"..\glew-2.1.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\source\soil\src\image_DXT.c ..\source\soil\src\image_helper.c ..\source\soil\src\SOIL.c ..\source\soil\src\stb_image_aug.c
+         stb_image_aug.c
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\soil\src\stbi_dds_aug_c.h(362): warning C4018: '>' : no coinciden signed/unsigned
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\soil\src\stbi_dds_aug_c.h(366): warning C4018: '>' : no coinciden signed/unsigned
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\soil\src\stbi_dds_aug_c.h(390): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\soil\src\stbi_dds_aug_c.h(427): warning C4018: '<' : no coinciden signed/unsigned
+         SOIL.c
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\soil\src\soil.c(1719): warning C4018: '<=' : no coinciden signed/unsigned
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\soil\src\soil.c(1729): warning C4018: '<' : no coinciden signed/unsigned
+         image_helper.c
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\soil\src\image_helper.c(325): warning C4244: 'inicializando' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\soil\src\image_helper.c(366): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\soil\src\image_helper.c(373): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\soil\src\image_helper.c(415): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\admin\documents\sipiran\proyectos\proyecto sencico\software\textureobjects\source\soil\src\image_helper.c(422): warning C4244: '=' : conversión de 'float' a 'int'; posible pérdida de datos
+         image_DXT.c
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\Documents\Sipiran\Proyectos\Proyecto SENCICO\Software\TextureObjects\Debug\TextureObjects.exe" /INCREMENTAL /NOLOGO /LIBPATH:"..\source\assimp-4.1.0\lib" /LIBPATH:..\freeglut\lib /LIBPATH:"..\glew-2.1.0\lib\Release\Win32" opengl32.lib glew32.lib freeglut.lib "assimp-vc120-mt.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Admin\Documents\Sipiran\Proyectos\Proyecto SENCICO\Software\TextureObjects\Debug\TextureObjects.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\Documents\Sipiran\Proyectos\Proyecto SENCICO\Software\TextureObjects\Debug\TextureObjects.lib" /MACHINE:X86 Debug\ArcBall.obj
+         Debug\objloader2.obj
+         Debug\shader_utils.obj
+         Debug\image_DXT.obj
+         Debug\image_helper.obj
+         Debug\SOIL.obj
+         Debug\stb_image_aug.obj
+         TemplateGL.vcxproj -> C:\Users\Admin\Documents\Sipiran\Proyectos\Proyecto SENCICO\Software\TextureObjects\Debug\TextureObjects.exe
+     1>Compilación del proyecto terminada "C:\Users\Admin\Documents\Sipiran\Proyectos\Proyecto SENCICO\Software\TextureObjects\TemplateGL\TemplateGL.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:15.04
